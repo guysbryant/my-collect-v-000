@@ -1,7 +1,7 @@
 def my_collect(list)
-  i = 0
   return_array = []
   if block_given?
+    i = 0
     while i < list.length
       yield return_array.push(list[i])
       i += 1
