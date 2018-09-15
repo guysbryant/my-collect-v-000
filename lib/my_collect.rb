@@ -1,4 +1,4 @@
-my_collection(list) do
+my_collection(list)
   i = 0
   return_array = []
   if block_given?
