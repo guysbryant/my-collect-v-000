@@ -1,4 +1,4 @@
-def my_collection(list)
+def my_collect(list)
   i = 0
   return_array = []
   if block_given?
