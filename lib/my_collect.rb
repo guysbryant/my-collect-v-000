@@ -3,7 +3,7 @@ def my_collect(list)
   return_array = []
   if block_given?
     while i < list.length
-      yield return_array << list[i]
+      return_array << yield list[i]
       i += 1
     end
   end
