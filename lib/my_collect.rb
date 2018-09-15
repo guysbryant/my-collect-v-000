@@ -5,5 +5,6 @@ my_collection(list) do
     yield return_array << list[i]
     i += 1
   end
+  return_array
 end
 
