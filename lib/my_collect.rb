@@ -1,7 +1,8 @@
 my_collection(list) do
   i = 0
+  return_array = []
   while i < list.length
-    yield list[i]
+    yield return_array << list[i]
     i += 1
   end
 end
